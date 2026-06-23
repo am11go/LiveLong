@@ -354,8 +354,8 @@ class _SignUpPageState extends State<SignUpPage> {
                               child: Text('5-7 тренировок в неделю'),
                             ),
                             DropdownMenuItem(
-                              value: 'Тяжелый труд + тренировки каждый день',
-                              child: Text('Тяжелый труд + тренировки каждый день'),
+                              value: 'Тяж. труд + тренировки каждый день',
+                              child: Text('Тяж. труд + тренировки каждый день'),
                             ),
                           ],
                           onChanged: (val) {

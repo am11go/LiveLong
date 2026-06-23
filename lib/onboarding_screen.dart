@@ -128,7 +128,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 MaterialPageRoute(builder: (context) => LoginPage()),
                               );
                             },
-                            child: const Text("START"),
+                            child: const Text("Начать"),
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.white,
                               shape: RoundedRectangleBorder(
@@ -153,7 +153,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 onPressed: () {
                                   _controller.jumpToPage(2);
                                 },
-                                child: const Text("SKIP",
+                                child: const Text("Пропустить",
                                   style: TextStyle(color: Colors.white),
                                 ),
                                 style: TextButton.styleFrom(
@@ -171,7 +171,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                     curve: Curves.easeIn,
                                   );
                                 },
-                                child: const Text("NEXT"),
+                                child: const Text("Далее"),
                                 style: ElevatedButton.styleFrom(
                                   backgroundColor: Colors.white,
                                   shape: RoundedRectangleBorder(
